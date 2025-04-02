@@ -1,0 +1,21 @@
+{
+  "name": "kanban-deploy",
+  "version": "1.0.0",
+  "description": "Kanban Board - Full Stack Application",
+  "scripts": {
+    "build": "node build.js",
+    "postbuild": "ls -la ./public",
+    "start": "cd public && npx http-server -p $PORT"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RonaldoChiavegatti/kanban-deploy.git"
+  },
+  "private": true,
+  "devDependencies": {
+    "netlify-cli": "^19.1.4"
+  }
+}

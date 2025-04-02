@@ -1,0 +1,174 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
+
+# Node
+/node_modules
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Miscellaneous
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Firebase
+.firebase/
+firebase-debug.log
+firebase-debug.*.log
+
+# Variáveis de ambiente
+.env.development
+.env.production
+.env.test
+*.env
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Build
+dist/
+build/
+out/
+.angular/
+.output/
+
+# Firebase
+*firebase-debug.log
+*-firebase-adminsdk-*.json
+firebase-adminsdk-*.json
+*firebase-service-account.json
+firebase-service-account.json
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output/
+
+# IDEs e editores
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+.project
+.classpath
+*.swp
+*.swo
+
+# Diretórios temporários
+tmp/
+temp/
+.cache/
+.temp/
+.tmp/
+
+# Chaves privadas e certificados
+*.pem
+*.key
+*.p12
+*.pfx
+*.cer
+
+# Arquivos específicos do projeto
+frontend/src/environments/environment.prod.ts
+frontend/src/environments/environment.local.ts
+
+# Outros
+.dccache
+
+# Dependency directories
+jspm_packages/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# dotenv environment variable files
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build directories
+target/
+
+# Angular specific
+.angular/cache/
+
+# Firebase credentials
+**/serviceAccountKey.json
+**/firebase-config.json
+
+# Deployment files
+# .vercel
+.netlify
+.firebase
+
+# Generated diagrams
+docs/diagrams/*.png
+docs/diagrams/*.svg
+docs/diagrams/*.pdf
+
+# Temp files
+*.tmp
+*.temp
+*~ 
