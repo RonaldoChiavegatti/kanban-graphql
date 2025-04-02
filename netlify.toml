@@ -9,6 +9,7 @@
   to = "/index.html"
   status = 200
   force = true
+  conditions = {Not = [IsFile]}
 
 # Configurações de headers para segurança
 [[headers]]
